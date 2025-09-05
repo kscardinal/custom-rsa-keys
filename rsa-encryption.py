@@ -70,7 +70,7 @@ if __name__ == "__main__":
     priv_key = load_private_key("private_key.pem")
 
     # Encrypt / decrypt strings
-    message = b"Hello RSA!"
+    message = b"This is an encryption test."
     ciphertext = encrypt_message(message, pub_key)
     print("Encrypted:", ciphertext)
     decrypted = decrypt_message(ciphertext, priv_key)
