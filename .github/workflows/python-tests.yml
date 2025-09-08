@@ -22,5 +22,5 @@ jobs:
         pip install pytest cryptography icecream
     - name: Run tests
       run: |
-        export PYTHONPATH=$PYTHONPATH:$(pwd)
+        export PYTHONPATH=$PYTHONPATH:$(pwd)/src
         pytest tests/
