@@ -1,6 +1,5 @@
 import pytest
-from rsa_generation import generate_keys
-from rsa_encryption import load_public_key, load_private_key, encrypt_message, decrypt_message
+from custom_rsa import load_public_key, load_private_key, encrypt_message, decrypt_message, generate_keys, save_keys_to_pem
 
 def test_key_generation():
     public_key, private_key, (p, q) = generate_keys(1024)
@@ -19,7 +18,6 @@ def test_key_generation():
 def test_encryption_decryption():
     # Generate keys and save to PEM files
     public_key, private_key, (p, q) = generate_keys(1024)
-    from rsa_generation import save_keys_to_pem
     save_keys_to_pem(public_key, private_key, p, q)
 
     # Load key objects

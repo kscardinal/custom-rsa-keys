@@ -1,5 +1,5 @@
 import pytest
-from rsa_generation import generate_keys
+from custom_rsa import generate_keys
 
 def test_key_generation():
     public_key, private_key, (p, q) = generate_keys(1024)
