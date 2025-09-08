@@ -6,7 +6,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-green)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/kscardinal/custom-rsa-keys)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kscardinal/custom-rsa-keys)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kscardinal/custom-rsa-keys/python-tests.yml?label=Encryption%2FDecryption%20Testing)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kscardinal/custom-rsa-keys/python-tests.yml?label=encryption%2Fdecryption%20testing)
 
 
 ---
@@ -119,5 +119,6 @@ decrypt_file("{encrypted.bin}", "{decrypted.txt}", {private_key})
 ## License
 
 This project is licensed under the MIT License, which means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, as long as you include the original copyright and license notice in any copy of the software. The software is provided "as is," without warranty of any kind.
+
 
 
