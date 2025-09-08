@@ -2,7 +2,7 @@
 `custom-rsa-keys` is a python utility providing custom RSA key generation used for encrypting and decrypting secure data.
 
 
-![GitHub contributors](https://img.shields.io/github/contributors/kscardinal/custom-rsa-keys)
+![GitHub License](https://img.shields.io/github/license/kscardinal/custom-rsa-keys)
 ![GitHub Release](https://img.shields.io/github/v/release/kscardinal/custom-rsa-keys)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/kscardinal/custom-rsa-keys)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kscardinal/custom-rsa-keys)
@@ -119,6 +119,7 @@ decrypt_file("{encrypted.bin}", "{decrypted.txt}", {private_key})
 ## License
 
 This project is licensed under the MIT License, which means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, as long as you include the original copyright and license notice in any copy of the software. The software is provided "as is," without warranty of any kind.
+
 
 
 
