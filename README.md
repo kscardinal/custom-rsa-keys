@@ -49,7 +49,7 @@
 
 ## Project Structure  
 
-- secure-auth-system/
+- custom-rsa-keys/
 - ├── [`rsa-generation.py`](rsa-generation.py)                       # Generates the RSA keys
 - ├── [`rsa-encryption.py`](rsa-encryption.py)                       # Encrypts and Decrypts with the keys
 - ├── `public_key.pem`                                               # Public key used for encrypting
@@ -113,3 +113,4 @@ decrypt_file("{encrypted.bin}", "{decrypted.txt}", {private_key})
 ## License
 
 This project is licensed under the MIT License, which means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, as long as you include the original copyright and license notice in any copy of the software. The software is provided "as is," without warranty of any kind.
+
