@@ -161,7 +161,7 @@ def save_keys_to_pem(public_key, private_key, p, q):
 time_start = time.time()
 public_key, private_key, (p, q) = generate_keys(1024)
 time_end = time.time()
-print(f"Key generation took {time_end - time_start:.2f} seconds")
+print(f"Key generation took {time_end - time_start:.4f} seconds")
 
 # Save PEM files
 save_keys_to_pem(public_key, private_key, p, q)
